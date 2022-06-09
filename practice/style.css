@@ -57,6 +57,9 @@ table {
     align-items: center;
     margin: 6px;
 }
+.link ul{
+    display: flex;
+}
 a{
     text-decoration: none;
 }
