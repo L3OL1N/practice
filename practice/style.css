@@ -48,7 +48,7 @@ table {
 }
 
 .top{
-    height: 28px;
+    padding: 10px;
     background: #f6f6f6;
 }
 .link{
@@ -96,15 +96,16 @@ a{
     overflow: hidden;
     white-space: nowrap;
 }
-.menu ul{
+.menu{
     display: flex;
     color: #88ced2;
-}
-.menu ul li{
-    padding: 10px;
+    
     font-size: 18px;
 }
-.menu ul li:hover{
+.menu li{
+    padding: 10px;
+}
+.menu li:hover{
     border-bottom: 3px solid #88ced2;
     cursor: pointer;
 }
@@ -128,7 +129,7 @@ a{
 .content{
     margin: 20px;
 }
-.box_1 ul{
+.box_1{
     display: flex;
     justify-content: space-between;
     
